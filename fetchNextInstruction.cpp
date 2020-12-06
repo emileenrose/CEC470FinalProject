@@ -15,6 +15,7 @@ using namespace std;
 void fetchNextInstruction(void);
 void executeInstruction(void);
 
+
 // Declare variables
 unsigned char memory[65536];
 unsigned char ACC = 0;    // Accumulator
@@ -23,8 +24,10 @@ unsigned int MAR = 0;    // Memory Address Register
 unsigned int PC = 0;    // Program Counter
 unsigned int operand = 0;    // Avoid reading out of file
 
+int test(void);
+
 int main(void) {
-  cout << "Hello World";
+  test();
   return 0;
 }
 
